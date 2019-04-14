@@ -1,13 +1,13 @@
 <template>
-    <div :class="$style.home">
-        <h1>html
-            <a href="">33333</a>
-        </h1>
+    <div>
+        <Head/>
     </div>
 </template>
 <script>
-export default {};
+import Head from "../public/header.vue";
+export default {
+    components:{
+        Head
+    }
+};
 </script>
-<style lang=scss module>
-@import "../../css/reset.scss";
-</style>

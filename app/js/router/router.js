@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "../home/home.vue";
+import "../../css/reset.scss";
 
 Vue.use(Router);
 
